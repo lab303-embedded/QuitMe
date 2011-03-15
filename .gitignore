@@ -1,0 +1,11 @@
+# Ignore object files
+*.[oa]
+
+# Ignore Makefile
+Makefile
+
+# Ignore moc files
+moc_*
+
+# Ignore compiled app bundle
+*.app
