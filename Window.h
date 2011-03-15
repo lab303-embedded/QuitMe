@@ -2,6 +2,7 @@
 #define WINDOW_H
 
 #include <QtGui/QWidget>
+#include <QtCore/QList>
 class QPushButton;
 
 class Window : public QWidget
@@ -13,7 +14,7 @@ public:
     ~Window();
 
 private:
-	QPushButton *quitButton;
+    QList<QPushButton *> buttons;
 };
 
 #endif // WINDOW_H
